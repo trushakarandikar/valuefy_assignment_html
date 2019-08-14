@@ -1,0 +1,210 @@
+/* images */
+img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+/* main menu bar */
+.menu_bar{
+    width : 80%;
+    height : 40px;
+    background-color: #f1f1f1;
+    box-shadow: 5px 10px #fff;
+    padding : 10px;
+    margin: 0 10% 0 10%;
+}
+
+#left {
+  float:left;
+  width:100px;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+}
+
+#right {
+    float:right;
+    width:100px;
+}
+
+/* heading of page */
+#heading_main
+{
+    margin :10px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 22px;
+    color: #797878;
+    margin: 2% 36% 0%;
+}
+
+#heading_sub{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size:8px;
+    color: #888686;
+    margin: 0% 45% 2%;
+}
+
+/* amount */
+#serviceBox{
+    width:75%;
+    margin: 0 15% 0;
+    height:70px;
+    /*border:1px solid black;*/
+    font-family: Montserrat;
+    font-weight: normal;
+}
+
+#serviceBox p{
+    color: #4c4c4c;
+    font-size: 10px;
+}
+
+#serviceBox h4{
+    margin: 0;
+}
+
+.serviceBox1, .serviceBox2, .serviceBox3, .serviceBox4 ,.serviceBox5{
+    float:left;
+    width:20%;
+}
+
+.box{
+
+    height: 70px;
+    background-color: white;
+    /*border:1px solid #bdbdbd;*/
+}
+
+/*Responsive code*/
+@media all and (max-device-width: 720px){
+    #heading1 {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-device-width: 650px){
+    #heading {
+        font-size: 12px;
+    }
+
+    .detailBox2
+    {
+        width:960px;
+    }
+}
+
+@media all and (max-device-width: 400px){
+    #heading {
+        font-size: 12px;
+    }
+
+    .detailBox2{
+        width:960px;
+    }
+}
+
+
+/* detail box */
+
+#detailBox{
+    margin: 0 10% 0;
+    height:250px;
+    font-family: Montserrat;
+    font-weight: normal;
+}
+
+#detailBox1{
+    width: 40%; 
+    float:left;
+}
+
+#detailBox2{
+    width: 60%; 
+    float:right;  
+}
+
+#detailBox2 div{
+    border:0.5px solid #f1f1f1;
+    height:60px;
+}
+
+#detailBox2 div p{
+    color: #4c4c4c;
+    font-size: 11px;
+    padding: 1px;
+}
+
+.button{
+    background-color:#76e4cf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.donut-chart-block {
+  overflow: hidden;
+}
+
+.donut-chart {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto;
+  border-radius: 100%
+}
+
+.donut-chart .center {
+  background: #ffffff;    
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 170px;
+  width: 170px;
+  border-radius: 90px;
+}
+
+.clip {
+  border-radius: 50%;
+  clip: rect(0px, 200px, 200px, 100px);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.item {
+  border-radius: 50%;
+  clip: rect(0px, 100px, 200px, 0px);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+#section1 {
+  transform: rotate(0deg);
+}
+
+#section1 .item {
+  background-color: #425b77;
+  transform: rotate(180deg);
+}
+
+#section2 {
+  transform: rotate(180deg);
+}
+
+#section2 .item {
+  background-color: #13bc9c;
+  transform: rotate(180deg);
+}
